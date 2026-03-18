@@ -6,15 +6,6 @@ A systematic study on adapting compact Large Language Models for Question Answer
 
 ---
 
-## Key Results
-
-| Technique | Model | Language | F1 Score | Cosine Similarity | Model Size |
-|---|---|---|---|---|---|
-| QLoRA | Open LLaMA 3.1B | Tamil | **0.93** | **1.0** | 11.9 MB (from 12 GB) |
-| QLoRA | Open LLaMA 3.1B | Malayalam | 0.85 | 1.0 | 11.9 MB (from 12 GB) |
-| QLoRA | Gemma 2B | Tamil | 0.80 | 0.58 | 8.9 MB (from 9.56 GB) |
-| LoRA | Open LLaMA 3.1B | Malayalam | 0.865 | 0.99 | — |
-| RAG | Gemma 2B | Malayalam | — | 0.58 | — |
 
 **Model size reduction achieved via QLoRA:**
 
